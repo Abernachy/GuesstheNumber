@@ -6,12 +6,11 @@
 import sys
 import random
 
-"""Set the GameActive flag to True """
 """Main Game function """
 def funGuessnumgame():
     playerlives = 5
     # Generate the random number from a range
-    winningnumber = random.randint(1, 21)
+    winningnumber = random.randint(1, 20)
     #print(winningnumber)
     while playerlives >0:
         try:
